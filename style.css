@@ -1,0 +1,92 @@
+* {
+    margin : 0 auto;
+    padding : 0;
+
+}
+.sticky-nav {
+    display : flex;
+    position : sticky;
+    justify-content: flex-start;
+    align-items: space-evenly; 
+}
+
+.navoptions {
+    display : flex;
+    justify-content: space-evenly;
+    align-content: center;
+    transform : translateX(300px);
+    position : relative;
+    left : 800px;
+}
+
+.div1 {
+    height : 80vh;
+    width : 80wv;
+    position : relative;
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items:center;
+}
+
+.nav-op {
+    height : 10px;
+    width : 150px;
+    border : 2px solid black;
+    border-radius: 10px;
+    position : relative;
+    padding : 5px 10px 5px 10px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: 100;
+    position : relative;
+    left : 150px;
+}
+
+
+.logoimg {
+    height : 30px;
+    width : 100px;
+}
+
+/* .div1 { 
+    height : 80%;
+    width : 100vh;
+}*/
+
+.divs1 {
+    
+
+    /* border : 2px solid black;  */
+}
+.section {
+    height : 200px;
+    width : 300px;
+    overflow : auto;
+}
+
+.heading2 {
+    height : 10px;
+    width : 100px;
+    border : 2px transparent white;
+    border-radius : 50px;
+}
+.image {
+    position : absolute;
+    left : 550px;
+    top : 130px;
+}
+
+.logoimg { 
+    position : absolute;
+    left : 0px;
+    top : 0px;
+}
+
+.divs2 {
+    display : flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
